@@ -1,0 +1,93 @@
+{
+     "maxOccurrence": 1,
+     "required": true,
+     "elements": [
+          {
+               "name": "ISA",
+               "value": "ISA"
+          },
+          {
+               "name": "Authorization Information Qualifier",
+               "value": "ISA01"
+          },
+          {
+               "name": "Authorization Information",
+               "value": "ISA02"
+          },
+          {
+               "name": "Security Information Qualifier",
+               "value": "ISA03"
+          },
+          {
+               "name": "Security Information",
+               "value": "ISA04"
+          },
+          {
+               "name": "Interchange ID Qualifier",
+               "value": "ISA05"
+          },
+          {
+               "name": "Interchange Sender ID",
+               "value": "ISA06"
+          },
+          {
+               "name": "Interchange ID Qualifier footer",
+               "value": "ISA07"
+          },
+          {
+               "name": "Interchange Receiver ID",
+               "value": "ISA08"
+          },
+          {
+               "name": "Interchange Date",
+               "value": "ISA09"
+          },
+          {
+               "name": "Interchange Time",
+               "value": "ISA10"
+          },
+          {
+               "name": "ISA11",
+               "value": "ISA11"
+          },
+          {
+               "name": "Interchange Control Version Number",
+               "value": "ISA12"
+          },
+          {
+               "name": "Interchange Control Number",
+               "value": "ISA13"
+          },
+          {
+               "name": "Acknowledgment Requested",
+               "value": "ISA14"
+          },
+          {
+               "name": "Usage Indicator",
+               "value": "ISA15"
+          },
+          {
+               "name": "Component Element Separator",
+               "value": "ISA16"
+          }
+     ],
+     "children": [],
+     "closeRule": {
+          "required": true,
+          "maxOccurrence": 1,
+          "elements": [
+               {
+                    "name": "IEA",
+                    "value": "IEA"
+               },
+               {
+                    "name": "Number of Included Functional Groups",
+                    "value": "IEA01"
+               },
+               {
+                    "name": "Interchange Control Number footer",
+                    "value": "IEA02"
+               }
+          ]
+     }
+}
